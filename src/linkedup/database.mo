@@ -8,7 +8,7 @@ import Iter "mo:base/Iter";
 module {
     type NewProfile = Types.NewProfile;
     type Profile = Types.Profile;
-    type UserId = Types.UserId;
+    type UserId = Types.Userid;
 
     func isEq(x: UserId, y: UserId): Bool { x == y };
 
